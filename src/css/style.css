@@ -17,7 +17,7 @@ body{
 .cartao{
     background-color: #070b12;
     width: 370px;
-    border: 2px solid #02d08f;
+    border: 2px solid   rgb(86,150,150);
     border-radius: 10px;
     overflow: hidden;
 }
@@ -139,4 +139,14 @@ body{
 
 .redes-sociais .github{
     background-color: #545454;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 20px;
+    background-image: linear-gradient( gray, #02d08f);
+    border-radius: 10px;
 }
